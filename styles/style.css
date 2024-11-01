@@ -74,7 +74,6 @@ body{
 
 .ico :hover{
     transform: scale(1.15);
-    filter: invert(1);
     transition: 1s;
 }
 
