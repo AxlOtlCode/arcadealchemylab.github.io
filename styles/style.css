@@ -82,29 +82,30 @@ body{
     position: relative;
 }
 
-.heronav button{
+.heronav a {
     position: relative;
     left: 0;
     top: 0;
 
     height:100%;
     width: 25%;
-    padding: 20px;
     margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background-color: black;
     border: none;
     
-    transition: 0.5s;
-}
-
-a{
     color: white;
     text-decoration: none;
     font-size: large;
+
+    transition: 0.5s;
 }
 
-.heronav button:hover{
+.heronav a:hover{
     background-color: rgb(56, 78, 21);
     position: relative;
     left: 0;
