@@ -42,17 +42,20 @@ body{
 }
 
 #hero .heroH1{
-    font-size: xxx-large;
-    padding: 40px;
+    font-size: 60px;
+    margin: 0;
+    padding: 2% 10%;
     color: rgba(255, 255, 255, 0.852);
     font-family: "Grandiflora One", cursive;
 
-    mix-blend-mode: normal;
     
 }
 #hero .heroH3{
     color: white;
     font-family: "Grandiflora One", cursive;
+    padding: 2% 10%;
+    font-size: normal;
+    margin: 0;
 }
 .heronav{
     position: absolute;
@@ -125,7 +128,7 @@ body{
 }
 
 .heronav a:hover{
-    background-color: rgb(53, 138, 82);
+    background-color: rgb(64, 171, 93);
     position: relative;
     left: 0;
     top: 0px;
@@ -134,12 +137,22 @@ body{
     
 }
 /*--------------------- RESUMEN ---------------------*/
-.resume {
+.resume{
     background-color: black;
     color: white;
-    padding: 50px 20px;
+    padding: 10% 10%;
+    
     text-align: center;
     margin-top: 0px;
+    
+}
+.resume h1{
+    font-family: "Grandiflora One", cursive;
+    font-size: 30px;
+}
+.resume p{
+    font-family: "Grandiflora One", cursive;
+    font-size: 18px;
 }
 
 /*--------------------- RESPONSIVE ---------------------*/
